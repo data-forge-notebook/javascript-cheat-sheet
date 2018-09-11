@@ -78,3 +78,23 @@ iframe {
 .code-cell .cell-border {
     overflow: hidden;
 }
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.flex-center-content {
+    justify-content: center;
+    align-items: center;
+}
+
