@@ -1,4 +1,4 @@
-const fileName = "javascript-cheat-sheet.notebook";
+const baseName = "javascript-cheat-sheet";
 const notebook = {
     "version": 1,
     "sheet": {
