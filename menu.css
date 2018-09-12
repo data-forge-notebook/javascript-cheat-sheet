@@ -1,4 +1,5 @@
 .menu {
+    background: white;
     position:  absolute;
     top:  -120px;
     right:  0;
@@ -66,4 +67,10 @@
 .menu td {
     background-color: transparent !important;
     border: none !important;
+}
+
+@media screen and (max-width: 780px) {
+    #root {
+        padding-top: 100px;
+    }
 }
