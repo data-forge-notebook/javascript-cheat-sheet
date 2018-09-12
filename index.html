@@ -11,27 +11,41 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Code+Pro" rel="stylesheet">
         <link href="node_modules/c3/c3.min.css" rel="stylesheet">
         <link rel="stylesheet" data-name="vs/editor/editor.main" href="node_modules/monaco-editor/min/vs/editor/editor.main.css">
+        <link rel="stylesheet" type="text/css" href="menu.css">
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body>
-        <div style="position: relative">
-            <div style="position: absolute; right: 0; top: 0; font-size: 0.9em;">
-                <a href="javascript-cheat-sheet.pdf" target="_blank">Download as PDF</a>
-            </div>
-            <div style="position: absolute; right: 0; top: 30; font-size: 0.9em;">
-                The book: <a href="http://bit.ly/2t2cJu2" target="_blank">Data Wrangling with JavaScript</a>
-            </div>
-            <div style="position: absolute; right: 0; top: 60; font-size: 0.9em;">
-                The blog: <a href="http://www.the-data-wrangler.com/" target="_blank">The Data Wrangler</a>
-            </div>
-            <div style="position: absolute; right: 0; top: 90; font-size: 0.9em;">
-                    <strong>Edit <em>and</em> run</strong> this notebook in <a href="http://www.data-forge-notebook.com/" target="_blank">Data-Forge Notebook</a>
-                </div>
+
+        <!-- https://codepen.io/surjithctly/pen/pLDwe -->
+        <input type="checkbox" name="toggle" id="toggle" />
+        <label for="toggle"></label>
+
+        <div class="menu">
+            <table>
+                <tr>
+                    <td></td>
+                    <td><a href="javascript-cheat-sheet.pdf" target="_blank">Download as PDF</a></td>
+                </tr>
+                <tr>
+                    <td>The book</td>
+                    <td><a href="http://bit.ly/2t2cJu2" target="_blank">Data Wrangling with JavaScript</a></td>
+                </tr>
+                <tr>
+                    <td>The blog</td>
+                    <td><a href="http://www.the-data-wrangler.com/" target="_blank">The Data Wrangler</a></td>
+                </tr>
+            </table>
+
+            <div style="padding-top: 15px";><strong>Edit <em>and</em> run</strong> this notebook in <a href="http://www.data-forge-notebook.com/" target="_blank">Data-Forge Notebook</a></div>
+        </div>
+
+        <div class="container">
             <div id="root"></div>
         </div>
 
         <script src="notebook.js"></script>
         <script src="export.js"></script>
+        <script src="index.js"></script>
 
         <!--
             Monaco editor code has to come after export.js to avoid a problem.
