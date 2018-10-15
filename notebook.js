@@ -15,7 +15,7 @@ const notebook = {
             {
                 "id": "1be0db20-950b-11e8-a35e-85e807ef6fba",
                 "cellType": "markdown",
-                "code": "## LOGGING\r\n\r\nLogging is your best friend. It's the easiest way to inspect and check your data.",
+                "code": "## LOGGING\r\n\r\nLogging is your best friend. Use [`console.log`](https://developer.mozilla.org/en-US/docs/Web/API/Console/log) to display, inspect and check your data.",
                 "lastEvaluationDate": "2018-09-17T11:16:47.539+10:00",
                 "output": [],
                 "errors": []
@@ -107,7 +107,7 @@ const notebook = {
             {
                 "id": "a78c0e00-950c-11e8-a35e-85e807ef6fba",
                 "cellType": "markdown",
-                "code": "## OBJECTS\r\n\r\nTechniques for creating and modifying JavaScript objects",
+                "code": "## OBJECTS\r\n\r\nTechniques for creating and modifying [JavaScript objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects).",
                 "lastEvaluationDate": "2018-09-17T11:16:47.555+10:00",
                 "output": [],
                 "errors": []
@@ -285,7 +285,7 @@ const notebook = {
             {
                 "id": "92ec7190-950e-11e8-a35e-85e807ef6fba",
                 "cellType": "markdown",
-                "code": "## ARRAYS\r\n\r\nTechniques for creating and modifying JavaScript arrays",
+                "code": "## ARRAYS\r\n\r\nTechniques for creating and modifying [JavaScript arrays](https://developer.mozilla.org/en-US/docs/Glossary/array).",
                 "lastEvaluationDate": "2018-09-17T11:16:47.580+10:00",
                 "output": [],
                 "errors": []
@@ -756,7 +756,7 @@ const notebook = {
             {
                 "id": "3f323dc0-9511-11e8-a35e-85e807ef6fba",
                 "cellType": "markdown",
-                "code": "## FUNCTIONAL JAVASCRIPT\r\n\r\nFunctional-style array manipulation techniques",
+                "code": "## FUNCTIONAL JAVASCRIPT\r\n\r\nFunctional-style array manipulation techniques.",
                 "lastEvaluationDate": "2018-09-17T11:16:47.668+10:00",
                 "output": [],
                 "errors": []
@@ -764,7 +764,7 @@ const notebook = {
             {
                 "id": "578bea10-9511-11e8-a35e-85e807ef6fba",
                 "cellType": "markdown",
-                "code": "### Filter\r\n\r\nFilter an array with `filter` and a user-defined predicate function",
+                "code": "### Filter\r\n\r\nFilter an array with [`filter`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) and a user-defined predicate function.",
                 "lastEvaluationDate": "2018-09-17T11:16:47.668+10:00",
                 "output": [],
                 "errors": []
@@ -795,7 +795,7 @@ const notebook = {
             {
                 "id": "a84ef690-9511-11e8-a35e-85e807ef6fba",
                 "cellType": "markdown",
-                "code": "### Transform\r\n\r\nTransform an array with `map` and a user-defined transformation function",
+                "code": "### Transform\r\n\r\nTransform an array with [`map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) and a user-defined transformation function.",
                 "lastEvaluationDate": "2018-09-17T11:16:47.673+10:00",
                 "output": [],
                 "errors": []
@@ -827,7 +827,7 @@ const notebook = {
             {
                 "id": "decdebe0-9511-11e8-a35e-85e807ef6fba",
                 "cellType": "markdown",
-                "code": "### Aggregation\r\n\r\nAggregate an array with `reduce` and a user-defined aggregation function",
+                "code": "### Aggregation\r\n\r\nAggregate an array with [`reduce`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) and a user-defined aggregation function.",
                 "lastEvaluationDate": "2018-09-17T11:16:47.683+10:00",
                 "output": [],
                 "errors": []
@@ -853,7 +853,7 @@ const notebook = {
             {
                 "id": "2049fd70-9512-11e8-a35e-85e807ef6fba",
                 "cellType": "markdown",
-                "code": "## REGULAR EXPRESSIONS\r\n\r\nUse regular expressions to match and extract search patterns in text",
+                "code": "## REGULAR EXPRESSIONS\r\n\r\nUse [regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) to match and extract search patterns in text.",
                 "lastEvaluationDate": "2018-09-17T11:16:47.685+10:00",
                 "output": [],
                 "errors": []
@@ -881,7 +881,7 @@ const notebook = {
             {
                 "id": "44d87ee0-ba02-11e8-8778-9ff4ba8852c6",
                 "cellType": "markdown",
-                "code": "## READ AND WRITE TEXT FILES\r\n\r\nIn Node.js we can read and write text files using the functions `fs.readFileSync` and `fs.writeFileSync`.\r\n\r\nAfter you run this code cell, check out the contents of the file `my-text-file.txt` that has been written out to your file system.",
+                "code": "## READ AND WRITE TEXT FILES\r\n\r\nIn Node.js we can read and write text files using the [fs module](https://nodejs.org/api/fs.html#fs_file_system) functions [`fs.readFileSync`](https://nodejs.org/api/fs.html#fs_fs_readfilesync_path_options) and [`fs.writeFileSync`](https://nodejs.org/api/fs.html#fs_fs_writefilesync_file_data_options).\r\n\r\nAfter you run this code cell, check out the contents of the file `my-text-file.txt` that has been written out to your file system.",
                 "lastEvaluationDate": "2018-09-17T11:16:47.688+10:00",
                 "output": [],
                 "errors": []
@@ -907,7 +907,7 @@ const notebook = {
             {
                 "id": "0d86c5b0-ba01-11e8-8778-9ff4ba8852c6",
                 "cellType": "markdown",
-                "code": "## DATA FORMATS\r\n\r\n### Serialize and deserialize JSON data\r\n\r\nJavaScript already contains the functions you need to to serialize and deserialize data to and from the JSON format.\r\n\r\nUse `JSON.stringify` to convert your data to JSON, then use `JSON.parse` to convert it back.",
+                "code": "## DATA FORMATS\r\n\r\n### Serialize and deserialize JSON data\r\n\r\nJavaScript already contains the functions you need to to serialize and deserialize data to and from the JSON format.\r\n\r\nUse [`JSON.stringify`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify) to convert your data to JSON, then use [`JSON.parse`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) to convert it back.",
                 "lastEvaluationDate": "2018-09-17T11:16:47.690+10:00",
                 "output": [],
                 "errors": []
