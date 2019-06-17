@@ -3,6 +3,7 @@ const notebook = {
     "version": 1,
     "sheet": {
         "id": "7ce8e710-950a-11e8-a35e-85e807ef6fba",
+        "language": "javascript",
         "cells": [
             {
                 "id": "8a6ad970-950a-11e8-a35e-85e807ef6fba",
@@ -25,7 +26,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "console.log(\"Your logging here\"); // General text logging for debugging.",
-                "lastEvaluationDate": "2018-10-22T08:30:04.074+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:56.947+10:00",
                 "output": [
                     {
                         "values": [
@@ -43,7 +44,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "const arr = [1, 2, 3];            // Your data.\r\nconsole.log(arr);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.077+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:56.957+10:00",
                 "output": [
                     {
                         "values": [
@@ -61,7 +62,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "const obj = { A: 1, B: 2, C: 3 }; // Your data\r\nconsole.log(obj);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.080+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:56.961+10:00",
                 "output": [
                     {
                         "values": [
@@ -87,7 +88,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "const obj = { A: 1, B: 2, C: 3 }; // Your data\r\n\r\ndisplay(obj);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.084+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:56.965+10:00",
                 "output": [
                     {
                         "values": [
@@ -125,7 +126,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let o = { A: 1, B: 2 };                 // Your data\r\nlet v1 = o[\"A\"];                        // Extract field value\r\ndisplay(v1);\r\n\r\nlet v2 = o.A;\r\ndisplay(v2);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.090+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:56.972+10:00",
                 "output": [
                     {
                         "values": [
@@ -159,7 +160,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let o = {};                             // Empty object\r\no[\"A\"] = 3;                             // Set field value\r\no.A = 3;\r\n\r\ndisplay(o);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.096+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:56.976+10:00",
                 "output": [
                     {
                         "values": [
@@ -187,7 +188,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "\r\nlet o = { A: 1, B: 2 };\r\ndelete o[\"A\"];                          // Delete a field value\r\ndelete o.A;\r\n\r\ndisplay(o);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.107+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:56.981+10:00",
                 "output": [
                     {
                         "values": [
@@ -215,7 +216,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let o = { A: 1, B: 2 };\r\nlet c = Object.assign({}, o);           // Clone an object\r\nc.A = 300;\r\nc.B = 500;\r\n\r\ndisplay(o);                             // Original object is unchanged\r\ndisplay(c);                             // Cloned object is modified",
-                "lastEvaluationDate": "2018-10-22T08:30:04.124+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:56.985+10:00",
                 "output": [
                     {
                         "values": [
@@ -255,7 +256,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let o = { A: 1, B: 2 };\r\nlet ovr = { B: 200 };\r\nlet c = Object.assign({}, o, ovr);      // Clone and override fields\r\n\r\ndisplay(o);                             // Original object is unchanged\r\ndisplay(c);                             // Cloned object has specified fields changed",
-                "lastEvaluationDate": "2018-10-22T08:30:04.153+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:56.993+10:00",
                 "output": [
                     {
                         "values": [
@@ -303,7 +304,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let a = [1, 2, 3];                      // Your data\r\na.forEach(item => {\r\n    console.log(item);                  // Visit each item in the array\r\n});\r\n\r\n// Or (old-style JS)\r\nfor (let i = 0; i < a.length; ++i) {\r\n    const item = a[i];\r\n    // Visit each item\r\n}\r\n\r\n// Or (using modern JS iterators)\r\nfor (const item of a) {\r\n    // Visit each item\r\n}",
-                "lastEvaluationDate": "2018-10-22T08:30:04.185+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.000+10:00",
                 "output": [
                     {
                         "values": [
@@ -345,7 +346,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let a = [1, 2, 3, 4, 5, 6];             // Your data\r\nlet v = a[5];                           // Get value at index\r\ndisplay(v);\r\n\r\na[3] = 32;                              // Set value at index\r\ndisplay(a);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.190+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.005+10:00",
                 "output": [
                     {
                         "values": [
@@ -386,7 +387,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let a = [1, 2, 3];\r\n\r\na.push(\"new end item\");                 // Add to end of array\r\ndisplay(a);\r\n\r\nlet last = a.pop();                     // Remove last element\r\ndisplay(last);\r\ndisplay(a);\r\n\r\na.unshift(\"new start item\");            // Add to start of array\r\ndisplay(a);\r\n\r\nlet first = a.shift();                  // Remove first element\r\ndisplay(first);\r\ndisplay(a);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.206+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.013+10:00",
                 "output": [
                     {
                         "values": [
@@ -470,7 +471,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let a1 = [1, 2, 3];\r\nlet a2 = [4, 5, 6];\r\nlet a = a1.concat(a2);              // Concatenate arrays\r\ndisplay(a);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.242+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.034+10:00",
                 "output": [
                     {
                         "values": [
@@ -503,7 +504,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let a = [1, 2, 3, 4, 5];\r\n\r\nlet e = a.slice(0, 3);                  // Extract first 3 elements\r\ndisplay(e);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.254+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.042+10:00",
                 "output": [
                     {
                         "values": [
@@ -525,7 +526,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];\r\n\r\nlet e = a.slice(5, 11);                 // Extract elements 5 to 10\r\ndisplay(e);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.267+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.049+10:00",
                 "output": [
                     {
                         "values": [
@@ -550,7 +551,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];\r\n\r\nlet e = a.slice(-4, -1);                // Negative indicies relative to end of the array\r\ndisplay(e);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.282+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.057+10:00",
                 "output": [
                     {
                         "values": [
@@ -572,7 +573,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];\r\n\r\nlet e = a.slice(-3);                    // Extract last three elements\r\ndisplay(e);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.301+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.064+10:00",
                 "output": [
                     {
                         "values": [
@@ -602,7 +603,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let a = [1, 2, 3, 4, 5];\r\nlet c = a.slice();                      // Clone array\r\nc[2] = 2230;\r\ndisplay(a);                             // Original array is unchanged\r\ndisplay(c);                             // Cloned array is modified",
-                "lastEvaluationDate": "2018-10-22T08:30:04.316+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.070+10:00",
                 "output": [
                     {
                         "values": [
@@ -648,7 +649,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let a = [1, 2, 3, 4, 5];\r\nlet i = a.indexOf(3);                   // Find index of item in array\r\nif (i >= 0) {\r\n    let v = a[i];                       // The value exists, extract it\r\n    display(v);                         \r\n}",
-                "lastEvaluationDate": "2018-10-22T08:30:04.334+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.080+10:00",
                 "output": [
                     {
                         "values": [
@@ -674,7 +675,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let a = [\"Pineapple\", \"Orange\", \"Apple\", \"Bananna\"];\r\na.sort();\r\ndisplay(a);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.341+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.084+10:00",
                 "output": [
                     {
                         "values": [
@@ -697,7 +698,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let a = [\"Pineapple\", \"Orange\", \"Apple\", \"Bananna\"];\r\nlet c = a.slice();                      // Clone the original\r\nc.sort();                               // Sort array without modifying the original\r\ndisplay(a);                             // Original array is unmodified\r\ndisplay(c);                             // Cloned array is sorted",
-                "lastEvaluationDate": "2018-10-22T08:30:04.358+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.091+10:00",
                 "output": [
                     {
                         "values": [
@@ -733,7 +734,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let a = [10, 20, 8, 15, 12, 33];\r\na.sort((a, b) => b - a);                // Customize sort with a user-defined function\r\ndisplay(a);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.372+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.109+10:00",
                 "output": [
                     {
                         "values": [
@@ -774,7 +775,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let a = [10, 20, 8, 15, 12, 33];\r\n\r\nfunction predicate(value) {\r\n    return value > 10;                  // Retain values > 10\r\n}\r\n\r\nlet f = a.filter(v => predicate(v));    // Filter array\r\ndisplay(f);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.387+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.117+10:00",
                 "output": [
                     {
                         "values": [
@@ -805,7 +806,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let a = [1, 2, 3, 4, 5];\r\n\r\nfunction transform(value) {\r\n    return value + 1;                   // Increment all values by one.\r\n}\r\n\r\nlet t = a.map(v => transform(v));       // Transform array\r\ndisplay(t);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.396+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.124+10:00",
                 "output": [
                     {
                         "values": [
@@ -837,7 +838,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let a = [1, 2, 3, 4, 5];\r\n\r\nfunction sum(a, b) {\r\n    return a + b;                       // Produces the sum of all values.\r\n}\r\n\r\nlet t = a.reduce(sum, 0)  // Reduce the array by summing the total of all values.\r\ndisplay(t);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.407+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.131+10:00",
                 "output": [
                     {
                         "values": [
@@ -863,7 +864,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "let re = /search pattern/;              // Define regular expression\r\n\r\n// Or\r\nre = new RegExp(\"search pattern\");\r\n\r\n// Or add options\r\nre = /search pattern/ig                 // Case insensitive + global\r\n\r\nlet source = \"your text data that contains the search pattern\";\r\nlet match = re.exec(source);           // Find first match.\r\ndisplay(match);\r\n\r\nwhile ((match = re.exec(source)) !== null) {\r\n    // Find each  match in turn.\r\n}",
-                "lastEvaluationDate": "2018-10-22T08:30:04.411+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.135+10:00",
                 "output": [
                     {
                         "values": [
@@ -891,7 +892,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "const fs = require('fs');\r\n\r\nconst textData = \"My text data\";                                        // Example data to write to a text file.\r\nfs.writeFileSync(\"./my-text-file.txt\", textData);                       // Write the text data to a file.\r\n\r\nconst loadedTextData = fs.readFileSync(\"./my-text-file.txt\", \"utf8\");   // Read the text data back from the file.\r\ndisplay(loadedTextData);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.431+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.144+10:00",
                 "output": [
                     {
                         "values": [
@@ -917,7 +918,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "const data = [\r\n    { item: \"1\" },\r\n    { item: \"2\" },\r\n    { item: \"3\" }\r\n];\r\nconst jsonData = JSON.stringify(data);          // Serialize (encode) the array of data items to JSON data.\r\n\r\ndisplay(jsonData);\r\n\r\nconst deserialized = JSON.parse(jsonData);      // Deserialize (decode) the array of data items from JSON data.\r\ndisplay(deserialized);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.434+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.156+10:00",
                 "output": [
                     {
                         "values": [
@@ -961,7 +962,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "const fs = require('fs');\r\n\r\nconst data = [\r\n    { item: \"1\" },\r\n    { item: \"2\" },\r\n    { item: \"3\" }\r\n];\r\nfs.writeFileSync(\"./my-json-file.json\", JSON.stringify(data));                      // Serialize (encode) the data to JSON and write it to the text file.\r\n\r\nconst deserialized = JSON.parse(fs.readFileSync(\"./my-json-file.json\", \"utf8\"));    // Read the JSON data from the text file and then deserialize (decode) it.\r\ndisplay(deserialized);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.449+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.171+10:00",
                 "output": [
                     {
                         "values": [
@@ -997,7 +998,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "const Papa = require('papaparse');\r\n\r\nconst data = [\r\n    { item: \"1\", val: 100 },\r\n    { item: \"2\", val: 200 },\r\n    { item: \"3\", val: 300 }\r\n];\r\nconst csvData = Papa.unparse(data);                     // Serialize (encode) the array of data items to CSV data.\r\n\r\ndisplay(csvData);\r\n\r\nconst options = { dynamicTyping: true, header: true };\r\nconst deserialized = Papa.parse(csvData, options);      // Deserialize (decode) the array of data items from CSV data.\r\ndisplay(deserialized.data);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.466+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.181+10:00",
                 "output": [
                     {
                         "values": [
@@ -1044,7 +1045,7 @@ const notebook = {
                 "cellType": "code",
                 "cellScope": "local",
                 "code": "const fs = require('fs');\r\nconst Papa = require('papaparse');\r\n\r\nconst data = [\r\n    { item: \"1\", val: 100 },\r\n    { item: \"2\", val: 200 },\r\n    { item: \"3\", val: 300 }\r\n];\r\nfs.writeFileSync(\"./my-csv-file.csv\", Papa.unparse(data));                                  // Serialize (encode) the data to CSV and write it to the text file.\r\n\r\nconst options = { dynamicTyping: true, header: true };\r\nconst deserialized = Papa.parse(fs.readFileSync(\"./my-csv-file.csv\", \"utf8\"), options);     // Read the CSV data from the text file and then deserialize (decode) it.\r\ndisplay(deserialized.data);",
-                "lastEvaluationDate": "2018-10-22T08:30:04.480+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.192+10:00",
                 "output": [
                     {
                         "values": [
@@ -1081,9 +1082,9 @@ const notebook = {
             {
                 "id": "a2ca2d60-d57c-11e8-9f26-37a7befdffde",
                 "cellType": "code",
-                "cellScope": "global",
+                "cellScope": "local",
                 "code": "const axios = require('axios');\r\nconst response = await axios(\"https://jsonplaceholder.typicode.com/todos\");\r\nconst data = response.data;\r\ndisplay(data.slice(0, 5));",
-                "lastEvaluationDate": "2018-10-22T08:30:04.496+10:00",
+                "lastEvaluationDate": "2019-04-25T11:21:57.210+10:00",
                 "output": [
                     {
                         "values": [
