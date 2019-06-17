@@ -1,4 +1,3 @@
-const baseName = "javascript-cheat-sheet";
 const notebook = {
     "version": 1,
     "sheet": {
