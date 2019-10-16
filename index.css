@@ -4,9 +4,10 @@ body {
     margin: auto;
 }
 
+.page {
+}
+
 .container {
-    width: calc(100% - 30px);
-    margin: auto;
 }
 
 .output-border {
@@ -95,3 +96,8 @@ iframe {
     align-items: center;
 }
 
+.dfn-ad {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
